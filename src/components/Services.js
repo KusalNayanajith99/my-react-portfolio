@@ -59,10 +59,10 @@ const Services = () => {
                       <p className='font-secondary leading-tight text-base'>{description}</p>
                     </div>
                     <div className='flex flex-col flex-1 items-end'>
-                      <a href='#' className='btn w-8 h-8 mb-4 flex justify-center items-center'>
+                      <a href='/' className='btn w-8 h-8 mb-4 flex justify-center items-center'>
                         <BsArrowUpRight />
                       </a>
-                      <a href='#' className='text-gradient text-sm'>{link}</a>
+                      <a href='/' className='text-gradient text-sm'>{link}</a>
                     </div>
                   </div>
                 );
