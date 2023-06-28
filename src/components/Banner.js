@@ -1,8 +1,8 @@
 import React from "react";
 //images
-import Image from "../assets/avatar.svg";
+import Image from "../assets/cover.gif";
 //icons
-import { FaGithub, FaYoutube, FaDribbble } from "react-icons/fa";
+import { FaGithub, FaYoutube, FaLinkedin , FaMedium , FaHackerrank } from "react-icons/fa";
 //type of animation
 import { TypeAnimation } from "react-type-animation";
 //motion
@@ -74,7 +74,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">Contact me</button>
+              <button className="btn btn-lg">More About me</button>
               <a href="/" className="text-gradient btn-link">
                 My Portfolio
               </a>
@@ -87,14 +87,20 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="/">
-                <FaYoutube />
+              <a href="https://www.linkedin.com/in/kusal-nayanajith-0a6630219/" >
+                <FaLinkedin />
               </a>
-              <a href="/">
+              <a href="https://github.com/KusalNayanajith99">
                 <FaGithub />
               </a>
-              <a href="/">
-                <FaDribbble />
+              <a href="https://www.youtube.com/channel/UC2J5cc12Pv-4Y_ICibxTedQ">
+                <FaYoutube />
+              </a>
+              <a href="https://medium.com/@kusalnayanajith88">
+                <FaMedium />
+              </a>
+              <a href="https://www.hackerrank.com/kusalnayanajith2?hr_r=1">
+                <FaHackerrank />
               </a>
             </motion.div>
           </div>

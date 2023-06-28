@@ -14,7 +14,7 @@ const App = () => {
     <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
       <Header />
       <Banner />
-      <Nav />
+      {/* <Nav /> */}
       <About />
       <Services />
       <Work />
