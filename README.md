@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# My Private React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my private portfolio website built using React and Tailwind CSS. This website showcases my skills, projects, and provides information about me. It is a personal space where I can present my work and accomplishments.
+
+## Technologies Used
+
+- React
+- Tailwind CSS
+
+## Features
+
+- Responsive design
+- Interactive navigation
+- Project showcase with details
+- About me section
+- Contact form
+
 
 ## Available Scripts
 
