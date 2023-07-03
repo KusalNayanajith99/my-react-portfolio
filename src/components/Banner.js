@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll';
 //images
 import Image from "../assets/cover.gif";
 //icons
@@ -74,7 +75,9 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button className="btn btn-lg">More About me</button>
+              <Link to='about' smooth={true} spy={true} className='btn btn-lg flex items-center justify-center cursor-pointer'>
+                More About me
+              </Link>
               <a href="/" className="text-gradient btn-link">
                 My Portfolio
               </a>

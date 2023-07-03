@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 //CountUp
 import CountUp from 'react-countup';
 //intersection observer hook
@@ -7,6 +8,8 @@ import {useInView} from 'react-intersection-observer';
 import {motion} from 'framer-motion';
 //variants
 import {fadeIn} from '../variants';
+//import CV
+import CV from '../assets/myCV.pdf';
 
 const About = () => {
   const [ref, inView] = useInView({
@@ -44,12 +47,12 @@ const About = () => {
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                   inView ?
-                  <CountUp start={0} end={13} duration={3} /> : 
+                  <CountUp start={0} end={3} duration={3} /> : 
                   null
-                }
+                }rd
               </div>
-              <div className='font-primary text-sm tracking-[2px]'>Years of <br />
-                Experience
+              <div className='font-primary text-sm tracking-[2px]'>Year <br />
+                Undergraduate
               </div>
             </div>
 
@@ -57,16 +60,16 @@ const About = () => {
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                   inView ?
-                  <CountUp start={0} end={15} duration={3} /> : 
+                  <CountUp start={0} end={3} duration={3} /> : 
                   null
-                }k+
+                }
               </div>
               <div className='font-primary text-sm tracking-[2px]'>Projects <br />
                 Completed
               </div>
             </div>
 
-            <div>
+            {/* <div>
               <div className='text-[40px] font-tertiary text-gradient mb-2'>
                 {
                   inView ?
@@ -77,13 +80,16 @@ const About = () => {
               <div className='font-primary text-sm tracking-[2px]'>Satisfied <br />
                 Clients
               </div>
-            </div>
+            </div> */}
 
           </div>
           <div className='flex gap-x-8 items-center'>
-            <button className='btn btn-lg'>Contact me</button>
-            <a href='/' className='text-gradient btn-link'>
-              My Portfolio
+            {/* <button className='btn btn-lg'>See my work</button> */}
+            <Link to='work' smooth={true} spy={true} className='btn btn-lg flex items-center justify-center cursor-pointer'>
+              See my work
+            </Link>
+            <a href={CV} download className='text-gradient btn-link'>
+              Download CV
             </a>
           </div>
           </motion.div>

@@ -4,9 +4,9 @@ import {motion} from 'framer-motion';
 //variants
 import {fadeIn} from '../variants';
 //img
-import Img1 from '../assets/portfolio-img1.png';
-import Img2 from '../assets/portfolio-img2.png';
-import Img3 from '../assets/portfolio-img3.png';
+import Img1 from '../assets/Food-store.png';
+import Img2 from '../assets/miracularz.png';
+import Img3 from '../assets/my-portfolio.png';
 
 const Work = () => {
   return (
@@ -21,9 +21,9 @@ const Work = () => {
           className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0'>
             {/* text */}
             <div>
-              <h2 className='h2 leading-tight text-accent'>My Latest <br />Work.</h2>
+              <h2 className='h2 leading-tight text-accent'>My Latest <br />Work</h2>
               <p className='max-w-sm mb-16'>
-              I design user interfaces that are easy to use and provide a great user experience.
+              Explore my latest impactful and innovative web development projects.
               </p>
               <button className='btn btn-sm'>View all Projects</button>
             </div>
@@ -37,11 +37,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img1} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Web Application</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Online Food Store System</span>
               </div>
             </div>
           </motion.div>
@@ -61,11 +61,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>Web & Mobile Application</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>Vehicle Valuation System</span>
               </div>
             </div>
             {/* image */}
@@ -78,11 +78,11 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img3} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>UI/UX Design</span>
+                <span className='text-gradient'>This Website</span>
               </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
-                <span className='text-3xl text-white'>Project Title</span>
+                <span className='text-3xl text-white'>My Portfolio</span>
               </div>
             </div>
           </motion.div>
