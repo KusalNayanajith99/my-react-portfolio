@@ -3,10 +3,14 @@ import React from 'react';
 import {motion} from 'framer-motion';
 //variants
 import {fadeIn} from '../variants';
+
+import { FaGithub } from 'react-icons/fa';
+import { FaGit } from 'react-icons/fa';
 //img
 import Img1 from '../assets/Food-store.png';
 import Img2 from '../assets/miracularz.png';
 import Img3 from '../assets/my-portfolio.png';
+
 
 const Work = () => {
   return (
@@ -43,6 +47,11 @@ const Work = () => {
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Online Food Store System</span>
               </div>
+              <div className='absolute  bottom-0 opacity-0 left-12 group-hover:bottom-6 transition-all duration-700 z-50 delay-100 group-hover:opacity-100'>
+                  <a href='https://github.com/KusalNayanajith99/food-store' target='_blank'>
+                  <FaGithub size={24} />
+                  </a>      
+           </div>
             </div>
           </motion.div>
           <motion.div 
@@ -61,12 +70,20 @@ const Work = () => {
               <img className='group-hover:scale-125 transition-all duration-500' src={Img2} alt='' />
               {/* pretitle */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                <span className='text-gradient'>Web & Mobile Application</span>
-              </div>
+  
+              <span className='text-gradient'>Web & Mobile Application</span>
+             
+            </div>
+
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>Vehicle Valuation System</span>
               </div>
+              <div className='absolute  bottom-0 opacity-0 left-12 group-hover:bottom-6 transition-all duration-700 z-50 delay-100 group-hover:opacity-100'>
+                  <a href='https://dev.azure.com/Miraculerz/vvs-business-logics' target='_blank'>
+                  <FaGit size={24} />
+                  </a>      
+           </div>
             </div>
             {/* image */}
             <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -80,6 +97,11 @@ const Work = () => {
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
                 <span className='text-gradient'>This Website</span>
               </div>
+              <div className='absolute  bottom-0 opacity-0 left-12 group-hover:bottom-6 transition-all duration-700 z-50 delay-100 group-hover:opacity-100'>
+                  <a href='https://github.com/KusalNayanajith99/my-react-portfolio' target='_blank'>
+                  <FaGithub size={24} />
+                  </a>      
+           </div>
               {/* title */}
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'>
                 <span className='text-3xl text-white'>My Portfolio</span>
