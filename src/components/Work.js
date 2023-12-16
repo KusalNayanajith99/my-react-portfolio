@@ -48,7 +48,7 @@ const Work = () => {
                 <span className='text-3xl text-white'>Online Food Store System</span>
               </div>
               <div className='absolute  bottom-0 opacity-0 left-12 group-hover:bottom-6 transition-all duration-700 z-50 delay-100 group-hover:opacity-100'>
-                  <a href='https://github.com/KusalNayanajith99/food-store' target='_blank'>
+                  <a href='https://github.com/KusalNayanajith99/food-store' >
                   <FaGithub size={24} />
                   </a>      
            </div>
@@ -80,7 +80,7 @@ const Work = () => {
                 <span className='text-3xl text-white'>Vehicle Valuation System</span>
               </div>
               <div className='absolute  bottom-0 opacity-0 left-12 group-hover:bottom-6 transition-all duration-700 z-50 delay-100 group-hover:opacity-100'>
-                  <a href='https://dev.azure.com/Miraculerz/vvs-business-logics' target='_blank'>
+                  <a href='https://dev.azure.com/Miraculerz/vvs-business-logics' >
                   <FaGit size={24} />
                   </a>      
            </div>
@@ -98,7 +98,7 @@ const Work = () => {
                 <span className='text-gradient'>This Website</span>
               </div>
               <div className='absolute  bottom-0 opacity-0 left-12 group-hover:bottom-6 transition-all duration-700 z-50 delay-100 group-hover:opacity-100'>
-                  <a href='https://github.com/KusalNayanajith99/my-react-portfolio' target='_blank'>
+                  <a href='https://github.com/KusalNayanajith99/my-react-portfolio' >
                   <FaGithub size={24} />
                   </a>      
            </div>
